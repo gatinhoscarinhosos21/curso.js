@@ -8,6 +8,11 @@ const ingredientes = [
     "1 colher de sopa de fermento em pó"
 ];
 
-//título
+//Título
 console.log("Receita de Bolo Simples");
-console.log(ingredientes.join
+console.log("ingredientes:");
+
+//Exibindo cada ingrediente da lista
+ingredientes.forEach((item, index) => {
+ console.log(`${index + 1} - ${item}`);
+});
