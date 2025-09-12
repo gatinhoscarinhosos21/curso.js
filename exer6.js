@@ -1,3 +1,11 @@
+// Simula a entrada de dados (você pode adaptar isso para usar módulos como 'readline-sync'
+const notas = {
+ primeiroBimestre: 7.5,
+ segundoBimestre: 8.0,
+ terceiroBimestre: 6.5,
+ quartoBimestre: 9.0
+};
+
 function calcularMedia (notasBimestrais) {
     const somaNotas = notasBimestrais.primeiroBimestre +
                       notasBimestrais.segundoBimestre +
